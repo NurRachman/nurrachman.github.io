@@ -12,7 +12,7 @@ import opengraphImages, { presets } from "astro-opengraph-images";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astrofolio.pages.dev",
+  site: "https://nurrachman.github.io",
   vite: {
     plugins: [tailwindcss()],
   },
@@ -76,5 +76,5 @@ export default defineConfig({
     }),
   ],
   output: "static",
-  base: '/Astrofolio',
+  base: '/',
 });
