@@ -6,8 +6,9 @@
     "dev": "bunx --bun astro dev",
     "start": "bunx --bun astro dev",
     "build": "bunx --bun astro build",
-    "preview": "bunx --bun astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "preview": "astro preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.5.6",
